@@ -1,0 +1,39 @@
+#main{
+    width: 960px;
+    border: 2px solid red;
+    margin: auto;
+}
+#header{
+    width: 900px;
+    height: 100px;
+    border: 2px solid blue;
+    margin: 20px auto;
+}
+#slider{
+    width: 900px;
+    height: 300px;
+    border: 2px solid blueviolet;
+    margin: auto;
+}
+#content{
+    width: 900px;
+    height: 300px;
+    border: 2px solid green;
+    margin: 20px auto;
+}
+#footer{
+    width: 900px;
+    height: 100px;
+    border: 2px solid brown;
+    margin: 10px auto;
+}
+h2{
+    text-align: center;
+}
+.info{
+    width: 280px;
+    height: 280px;
+    border: 1px solid red;
+    float: left;
+    margin: 8px;
+}
