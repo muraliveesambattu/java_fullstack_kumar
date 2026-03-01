@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let person = {
+        //     fname: "ram",
+        //     lname: "kumar",
+        //     city: "HYD",
+        //     Zip: "517400"
+
+        // }
+        // // Adding a propery with . Notation
+        // person.email = "ram@gmail.com";
+        // person.state = "TG";
+
+        // // Adding properties with [] Notation 
+        // person["language"] = "Telugu";
+        // person["country"] = "India";
+
+
+        // person.city = "Hyderabad";
+        // person["Zip"] = 509500;
+
+
+        // delete person.lname
+        // console.log(person);
+
+        // function Person(fname, lname, email) {
+        //     this.fname = fname;
+        //     this.lname = lname;
+        //     this.email = email;
+        // }
+
+        // let person1 = new Person("Ram", "Kumar", "ram@gmail.com");
+        // let person2 = new Person("Sam", "Kumar", "Sam@gmail.com");
+        // let person3 = new Person("Kiran", "Kumar", "Kiran@gmail.com");
+        // console.log(person1);
+        // console.log(person2);
+        // console.log(person3);
+
+
+        class Person {
+            constructor(fname, lname, email) {
+                this.fname = fname;
+                this.lname = lname;
+                this.email = email;
+            }
+        }
+
+        let person1 = new Person("Ram", "Kumar", "ram@gmail.com");
+        let person2 = new Person("Sam", "Kumar", "Sam@gmail.com");
+        let person3 = new Person("Kiran", "Kumar", "Kiran@gmail.com");
+        console.log(person1);
+        console.log(person2);
+        console.log(person3);
+    </script>
+</body>
+
+</html>

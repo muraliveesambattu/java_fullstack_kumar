@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Approch 1 : Literal way Of Creating Object 
+        var person = {
+            email: "kumar@gmail.com"
+        };
+        console.log(person);
+
+        // Approach2 : Javascript Built In Method 
+
+        var student = new Object({ fullName: "Kiran Kumar" })
+
+        console.log(student);
+
+        // Approach 3 : Creating An Object with Constructor function 
+
+        function Employee() {
+            this.name = "Kumar";
+            this.email = "kumar@gmail.com"
+        }
+        var user1 = new Employee();
+        console.log(user1);
+
+
+        // Approach 4 : Creating a Object with Class (ES6)
+
+        class Student {
+            constructor() {
+                this.state = "Andhra";
+                this.capital = "Amaravathi";
+            }
+        }
+
+        let student1 = new Student();
+        console.log(student1);
+    </script>
+</body>
+
+</html>

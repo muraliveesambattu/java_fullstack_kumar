@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let person = {
+            fname: "ram",
+            lname: "kumar",
+            city: "HYD",
+            Zip: 517400,
+            address: {
+                street: "MG Road",
+                city: "Hyderabad",
+                state: "TG"
+            },
+            fullName: function () {
+                // return this.fname + " " + this.lname;
+                return "Welcome to Destructering Concept !!!!"
+            }
+        }
+
+        console.log(person.fname);
+        // Destructering is a Concept of Extracting the Properties of an Object 
+        let { address, fullName ,lname} = person
+
+        // console.log(person.fullName())
+        console.log(fullName());
+        console.log(lname);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let person = {
+            name: "VMR InfoTech",
+            course: "Full Stack Java",
+            student: "Ram",
+            address: {
+                city: "Hyderabad",
+                state: "Telangana"
+            }
+        }
+
+        // Javscript Strings 
+        // Why do we need convert as String then Back to Object
+
+        let newPerson = { ...person }; // Shallow Copy 
+        let lastestPerson = JSON.parse(JSON.stringify(person)) // Deep Copy 
+
+        console.log(person);
+        console.log(newPerson);
+        console.log(lastestPerson);
+
+        // JSON - Javascript Object Notation 
+
+        // We should have Quotes for Both Key and Value
+        var stuent = {
+            "fname": "lname"
+        }
+
+        var user = {
+            fname: "Ram"
+        }
+
+        // JSON will be discussed in Detail when we discuss about AJAX
+    </script>
+</body>
+
+</html>
