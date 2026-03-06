@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var employees = [
+            { name: "Ram", city: "chittoor" },
+            { name: "Ravi", city: "Tirupathi" },
+            { name: "sam", city: "Bangalore" },
+            { name: "Abi", city: "Hyderabad" },
+            { name: "Balu", city: "Bangalore" }
+        ]
+
+        var newEmployee = { name: "kiran" };
+
+        // var students = ["Ram", "Ravi", "Abi", "Balu", "Sam", "Kumar", "Kiran"];
+        // console.log(students.sort());
+
+        // employees.push(newEmployee);
+        // employees.pop()
+        // employees.shift()
+        // employees.unshift(newEmployee)
+        // employees.splice(1,1)
+
+        // var results = employees.sort(function (a, b) {
+        //     if (a.name > b.name) return 1;
+        //     if (a.name < b.name) return -1;
+        //     return 0;
+        // })
+        // console.log(results);
+        // console.log(employees.sort(function (a, b) {
+        //     return a.name - b.name
+        // }));
+
+        // var results = employees.sort(function (a, b) {
+        //     return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+        // })
+        // console.log(results.reverse());
+        // employees.forEach(function (val) {
+        //     document.writeln(val.name + "<br/>")
+        // })
+
+        // var results = employees.map(function (val) {
+        //     return { ...val, city: "chittoor" }
+        // })
+
+        // console.log(results);
+
+        var results = employees.filter(function (val) {
+            return val.city === "Bangalore"
+        })
+
+        console.log(results);
+
+        var studentMarks = [
+            { name: "Telugu", marks: 80 },
+            { name: "English", marks: 90 },
+            { name: "Maths", marks: 70 },
+            { name: "Science", marks: 85 },
+            { name: "Social", marks: 89 }
+        ]
+
+        // var totalMarks = studentMarks.reduce(function (a, b) {
+        //     if (a.marks) {
+        //         return a.marks + b.marks
+        //     } else {
+        //         return a + b.marks
+        //     }
+
+        // })
+
+        // console.log(totalMarks);
+
+        // var result = studentMarks.every(function (subject) {
+        //     return subject.marks > 75
+        // })
+
+        // if (result == false) {
+        //     document.writeln("Student Didnt Passed in Destinction !!")
+        // } else {
+        //     document.writeln("Student  Passed in Destinction !!")
+        // }
+        // console.log(result);
+
+        var result = studentMarks.some(function (subject) {
+            return subject.marks < 35;
+        })
+
+        if (result == false) {
+            document.writeln(
+                "Student Passed in All Subjects !!"
+            )
+        } else {
+            document.writeln(
+                "Student Failed in One or More Subjects !!"
+            )
+        }
+        // Debug
+    </script>
+</body>
+
+</html>

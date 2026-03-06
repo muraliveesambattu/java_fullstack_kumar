@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var students = ["Ram", "Ravi", "Abi", "Balu", "Sam", "Kumar", "Kiran"];
+        
+        var employees = [{ name: "Ram" }, { name: "Ravi" }]
+
+        console.log(students.length);
+        // length method will give number of Values in an Array 
+        // console.log(students[0]);
+        // console.log(students[3]);
+
+        // Adding Values in An Array 
+        // students.push("RamKumar");// Push Method will add a value at the end of Array 
+        // students.unshift("RamKumar"); // Unshift Method will add a value at the Start of the Array 
+        // students.splice("3",0,"Gopi");
+
+
+        // Delete Values in An Array 
+        // students.pop(); // Well delete a value at the End of the Array 
+        // students.shift() // Shift method will delte a value at the Start of the Array 
+        // students.splice("2",1) // Splice will delete the Value at the Given Index 
+
+        // students.sort().reverse() Will Sort the Array 
+        // document.writeln(students);
+
+        // for (
+        //     i = 0;// Intialization
+        //     i < students.length; // Comparison
+        //     i++) // Increment
+        // { document.writeln(students[i] + "<br/>") }
+
+        // students.forEach(function (){})
+
+        students.forEach(function (v) {
+            document.writeln(v + "<br/>")
+        })
+
+
+    </script>
+</body>
+
+</html>
