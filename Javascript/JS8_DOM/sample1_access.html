@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .success {
+            background: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World !!!</h1>
+    <button onclick="handleHTMLContent()">Change Heading</button>
+
+    <h2 id="demo">Hello DOM 2 !!!</h2>
+
+    <div id="empty"></div>
+    <ul>
+        <li class="myList">Item 1</li>
+        <li class="myList success" >Item 2</li>
+        <li class="myList">Item 3</li>
+    </ul>
+
+    <script>
+        function handleHTMLContent() {
+            // document.querySelector("h1").innerHTML = "Welcome to DOM Topic !!";
+            // document.querySelector("h1").style.background = "red";
+            // var selectedElement = document.querySelector("h1");
+            // document.body.removeChild(selectedElement)
+
+            // document.getElementById("demo").style.background = "red"
+            // document.getElementById("demo").style.color = "white"
+
+            // const allClassItems = document.getElementsByClassName("myList");
+            // console.log(allClassItems);
+            // for (i = 0; i < allClassItems.length; i++) {
+            //     allClassItems[i].style.background = "red";
+            //     allClassItems[i].style.margin = "2px "
+            // }
+
+            // const allElements = document.getElementsByTagName("li")
+
+            // for (i = 0; i < allElements.length; i++) {
+            //     console.log(allElements);
+            //     allElements[i].style.background = "red";
+            //     allElements[i].style.margin = "2px "
+            // }
+
+            // document.querySelector("#demo").style.color = "red";
+            // var allListItems = document.querySelectorAll(".myList");
+            // console.log(allListItems);
+
+            // for(i=0;i<allListItems.length;i++){
+            //     allListItems[i].style.background = "red";
+            //     allListItems[i].style.margin = "2px "
+            // }
+
+            // document.querySelector("h2").innerHTML = "Welcome to Back to JS DOM Topic !!!"
+            // document.querySelector("h2").innerText = "Welcome to Back to JS DOM Topic !!!"
+            // document.querySelector("h2").innerText = "Welcome to Back to JS DOM Topic !!! From innerText !!!"
+
+            // document.querySelector("#empty").style.width = "200px"
+            // document.querySelector("#empty").style.height = "200px"
+            // document.querySelector("#empty").style.border = "2px solid red"
+            
+            document.querySelector("h1").setAttribute(
+                "class",
+                "success"
+            )
+
+        }
+
+
+    </script>
+</body>
+
+</html>
