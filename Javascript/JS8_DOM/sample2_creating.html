@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <img src="https://picsum.photos/600/400?image=10", alt=""> -->
+    <p>Hello I am para</p>
+    <ul>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+    <script>
+      //   for (i = 0; i < 100; i++) {
+      //     const myHeading = document.createElement("h1");
+      //     myHeading.innerHTML = "Welcome to DOM Creating Element ";
+      //     document.body.appendChild(myHeading);
+      //   }
+
+      const imageUrls = [
+        "https://picsum.photos/600/400?image=10",
+        "https://picsum.photos/600/400?image=20",
+        "https://picsum.photos/600/400?image=30",
+        "https://picsum.photos/600/400?image=40",
+        "https://picsum.photos/600/400?image=50",
+        "https://picsum.photos/600/400?image=60",
+        "https://picsum.photos/600/400?image=70",
+        "https://picsum.photos/600/400?image=80",
+        "https://picsum.photos/600/400?image=90",
+        "https://picsum.photos/600/400?image=100",
+      ];
+
+      for (i = 0; i < imageUrls.length; i++) {
+        const myImage = document.createElement("img");
+        myImage.src = imageUrls[i];
+        document.body.append(myImage)
+      }
+    </script>
+  </body>
+</html>
