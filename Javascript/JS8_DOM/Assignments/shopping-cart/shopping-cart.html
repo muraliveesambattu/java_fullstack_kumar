@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="shopping-cart.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Shopping Cart</h2>
+    <form>
+      <label for="product-name">Product</label>
+      <input type="text" id="product-name" placeholder="Product Name">
+      <label for="product-price">Price</label>
+      <input type="number" id="product-price" placeholder="Price">
+      <label for="product-qty">Quantity</label>
+      <input type="number" id="product-qty" placeholder="Quantity">
+      <button>Add Product</button>
+    </form>
+    <table>
+      <thead>
+        <tr><th>Product</th><th>Price</th><th>Qty</th><th>Edit</th><th>Delete</th></tr>
+      </thead>
+      <tbody>
+        <!-- Cart items here -->
+        <tr>
+          <td>Sample Product</td>
+          <td>$10.00</td>
+          <td>1</td>
+          <td><button>Edit</button></td>
+          <td><button>Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="total">Total: $0.00</div>
+    <button>Checkout</button>
+  </div>
+  <script src="shopping-cart.js"></script>
+</body>
+</html>

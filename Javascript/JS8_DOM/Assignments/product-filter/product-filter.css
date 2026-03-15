@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background: #f1f8e9; }
+.container { max-width: 600px; margin: 60px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 0 10px #bbb; }
+h2 { text-align: center; }
+input[type="text"] { padding: 8px; margin: 8px 0 16px 0; width: 100%; box-sizing: border-box; }
+.products { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.product { background: #dcedc8; padding: 12px; border-radius: 4px; flex: 1 1 120px; }
+table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #c5e1a5; }

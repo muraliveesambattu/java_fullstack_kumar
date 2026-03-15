@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="kanban-board.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Kanban Board</h2>
+    <form>
+      <label for="task-input">Task</label>
+      <input type="text" id="task-input" placeholder="Add new task">
+      <button>Add Task</button>
+    </form>
+    <div class="board">
+      <div class="column">
+        <h3>To Do</h3>
+        <!-- Tasks here -->
+      </div>
+      <div class="column">
+        <h3>In Progress</h3>
+        <!-- Tasks here -->
+      </div>
+      <div class="column">
+        <h3>Done</h3>
+        <!-- Tasks here -->
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Status</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Tasks here -->
+        <tr>
+          <td>Sample Task</td>
+          <td>To Do</td>
+          <td><button>Edit</button></td>
+          <td><button>Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="kanban-board.js"></script>
+</body>
+</html>

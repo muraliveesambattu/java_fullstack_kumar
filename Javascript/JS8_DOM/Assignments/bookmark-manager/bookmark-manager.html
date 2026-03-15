@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="bookmark-manager.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Bookmark Manager</h2>
+    <form>
+      <label for="bookmark-name">Bookmark Name</label>
+      <input type="text" id="bookmark-name" placeholder="Bookmark Name">
+      <label for="bookmark-url">Bookmark URL</label>
+      <input type="url" id="bookmark-url" placeholder="Bookmark URL">
+      <button>Add Bookmark</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>URL</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Bookmarks will be listed here -->
+        <tr>
+          <td>Example</td>
+          <td><a href="#" target="_blank">https://example.com</a></td>
+          <td><button>Edit</button></td>
+          <td><button>Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="bookmark-manager.js"></script>
+</body>
+</html>
