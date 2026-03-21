@@ -1,11 +1,47 @@
 // JavaScript for Quiz App
 
-// TODO: 1. Select question, options, and table elements from the DOM
-// TODO: 2. Load questions and display the current question
-// TODO: 3. Handle option selection and Next button
-// TODO: 4. Validate answer and track score
-// TODO: 5. Add questions to the table dynamically
-// TODO: 6. Implement Edit button functionality to update a question
-// TODO: 7. Implement Delete button functionality to remove a question
-// TODO: 8. Optionally, store questions in localStorage for persistence
-// TODO: 9. Optionally, load questions from localStorage on page load
+// 🧩 Core CRUD
+// TODO: 1. Select DOM elements, handle question/option input, and validate inputs
+// TODO: 2. Add new question and render list dynamically
+// TODO: 3. Edit question using id (find / findIndex + map)
+// TODO: 4. Delete question (filter / splice)
+// TODO: 5. Persist questions using localStorage (save + load)
+
+// 🔍 Search & Filtering
+// TODO: 6. Implement search/filter for questions (filter + includes)
+// TODO: 7. Filter questions by category or difficulty
+
+// ⭐ Quiz Enhancements
+// TODO: 8. Add timer, score tracking, and tag management (map + some)
+// TODO: 9. Display tags and metadata per question
+
+// 📊 Sorting & Ordering
+// TODO: 10. Sort questions (name, date, difficulty) and reverse order (sort + reverse)
+
+// 📈 Analytics / Stats
+// TODO: 11. Show dashboard stats (total, by category, by difficulty using reduce)
+
+// 🔁 Advanced Transformations
+// TODO: 12. Extract unique tags/categories (Set + flatMap)
+// TODO: 13. Group questions by category or difficulty (reduce)
+
+// ✅ Validation & Checks
+// TODO: 14. Prevent duplicates and validate data (some + every)
+
+// 🔄 Bulk Operations
+// TODO: 15. Implement multi-select and bulk actions (delete, tag, clear all using map + filter)
+
+// 📄 Pagination
+// TODO: 16. Add pagination (slice + page navigation)
+
+// 🧠 Undo / Redo
+// TODO: 17. Implement undo/redo with history stack (push + pop)
+
+// 🔗 Import / Export
+// TODO: 18. Import/export questions and merge datasets (concat / spread)
+
+// 🎯 UI Smart Features
+// TODO: 19. Add UI enhancements (highlight search, drag-drop reorder, top/recent sections)
+
+// 🧪 Power Features
+// TODO: 20. Implement utility helpers (find by id, clone state, replace/merge arrays immutably)

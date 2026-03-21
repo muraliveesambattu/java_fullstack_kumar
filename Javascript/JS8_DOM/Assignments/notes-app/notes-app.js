@@ -1,10 +1,47 @@
 // JavaScript for Notes App
 
-// TODO: 1. Select form and table elements from the DOM
-// TODO: 2. Handle form submission to add a new note
-// TODO: 3. Validate input field (note content)
-// TODO: 4. Add new note to the table dynamically
-// TODO: 5. Implement Edit button functionality to update note
-// TODO: 6. Implement Delete button functionality to remove a note
-// TODO: 7. Optionally, store notes in localStorage for persistence
-// TODO: 8. Optionally, load notes from localStorage on page load
+// 🧩 Core CRUD
+// TODO: 1. Select DOM elements, handle form submission, and validate input (note)
+// TODO: 2. Add new note and render list dynamically
+// TODO: 3. Edit note using id (find / findIndex + map)
+// TODO: 4. Delete note (filter / splice)
+// TODO: 5. Persist notes using localStorage (save + load)
+
+// 🔍 Search & Filtering
+// TODO: 6. Implement search/filter for notes (filter + includes)
+// TODO: 7. Filter notes by tag or status
+
+// ⭐ Note Enhancements
+// TODO: 8. Add favorite toggle, pin, and tag management (map + some)
+// TODO: 9. Display tags and metadata per note
+
+// 📊 Sorting & Ordering
+// TODO: 10. Sort notes (name, date, favorites) and reverse order (sort + reverse)
+
+// 📈 Analytics / Stats
+// TODO: 11. Show dashboard stats (total, favorites, tag counts using reduce)
+
+// 🔁 Advanced Transformations
+// TODO: 12. Extract unique tags (Set + flatMap)
+// TODO: 13. Group notes by tag or favorite (reduce)
+
+// ✅ Validation & Checks
+// TODO: 14. Prevent duplicates and validate data (some + every)
+
+// 🔄 Bulk Operations
+// TODO: 15. Implement multi-select and bulk actions (delete, favorite, clear all using map + filter)
+
+// 📄 Pagination
+// TODO: 16. Add pagination (slice + page navigation)
+
+// 🧠 Undo / Redo
+// TODO: 17. Implement undo/redo with history stack (push + pop)
+
+// 🔗 Import / Export
+// TODO: 18. Import/export notes and merge datasets (concat / spread)
+
+// 🎯 UI Smart Features
+// TODO: 19. Add UI enhancements (highlight search, drag-drop reorder, top/recent sections)
+
+// 🧪 Power Features
+// TODO: 20. Implement utility helpers (find by id, clone state, replace/merge arrays immutably)

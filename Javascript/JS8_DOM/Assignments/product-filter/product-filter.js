@@ -1,10 +1,47 @@
 // JavaScript for Product Filter
 
-// TODO: 1. Select search input, product grid, and table elements from the DOM
-// TODO: 2. Load and display products
-// TODO: 3. Handle search/filter input to filter products
-// TODO: 4. Add products to the table dynamically
-// TODO: 5. Implement Edit button functionality to update a product
-// TODO: 6. Implement Delete button functionality to remove a product
-// TODO: 7. Optionally, store products in localStorage for persistence
-// TODO: 8. Optionally, load products from localStorage on page load
+// 🧩 Core CRUD
+// TODO: 1. Select DOM elements, handle form submission, and validate inputs (product)
+// TODO: 2. Add new product and render list dynamically
+// TODO: 3. Edit product using id (find / findIndex + map)
+// TODO: 4. Delete product (filter / splice)
+// TODO: 5. Persist products using localStorage (save + load)
+
+// 🔍 Search & Filtering
+// TODO: 6. Implement search/filter for products (filter + includes)
+// TODO: 7. Filter products by category, price, or tag
+
+// ⭐ Product Enhancements
+// TODO: 8. Add favorite toggle, featured status, and tag management (map + some)
+// TODO: 9. Display tags and metadata per product
+
+// 📊 Sorting & Ordering
+// TODO: 10. Sort products (name, price, date, favorites) and reverse order (sort + reverse)
+
+// 📈 Analytics / Stats
+// TODO: 11. Show dashboard stats (total, by category, by favorite using reduce)
+
+// 🔁 Advanced Transformations
+// TODO: 12. Extract unique categories/tags (Set + flatMap)
+// TODO: 13. Group products by category or favorite (reduce)
+
+// ✅ Validation & Checks
+// TODO: 14. Prevent duplicates and validate data (some + every)
+
+// 🔄 Bulk Operations
+// TODO: 15. Implement multi-select and bulk actions (delete, favorite, clear all using map + filter)
+
+// 📄 Pagination
+// TODO: 16. Add pagination (slice + page navigation)
+
+// 🧠 Undo / Redo
+// TODO: 17. Implement undo/redo with history stack (push + pop)
+
+// 🔗 Import / Export
+// TODO: 18. Import/export products and merge datasets (concat / spread)
+
+// 🎯 UI Smart Features
+// TODO: 19. Add UI enhancements (highlight search, drag-drop reorder, top/recent sections)
+
+// 🧪 Power Features
+// TODO: 20. Implement utility helpers (find by id, clone state, replace/merge arrays immutably)

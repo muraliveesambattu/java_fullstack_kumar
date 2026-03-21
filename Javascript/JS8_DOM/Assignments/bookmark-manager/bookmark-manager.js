@@ -1,10 +1,47 @@
 // JavaScript for Bookmark Manager
 
-// TODO: 1. Select form and table elements from the DOM
-// TODO: 2. Handle form submission to add a new bookmark
-// TODO: 3. Validate input fields (name, URL)
-// TODO: 4. Add new bookmark to the table dynamically
-// TODO: 5. Implement Edit button functionality to update bookmark details
-// TODO: 6. Implement Delete button functionality to remove a bookmark
-// TODO: 7. Optionally, store bookmarks in localStorage for persistence
-// TODO: 8. Optionally, load bookmarks from localStorage on page load
+// 🧩 Core CRUD
+// TODO: 1. Select DOM elements, handle form submission, and validate inputs (name, URL)
+// TODO: 2. Add new bookmark and render list dynamically
+// TODO: 3. Edit bookmark using id (find / findIndex + map)
+// TODO: 4. Delete bookmark (filter / splice)
+// TODO: 5. Persist bookmarks using localStorage (save + load)
+
+// 🔍 Search & Filtering
+// TODO: 6. Implement search (name + URL using filter + includes)
+// TODO: 7. Filter bookmarks by category and favorite status (single + multi-condition)
+
+// ⭐ Bookmark Enhancements
+// TODO: 8. Add favorite toggle, visited status, and tag management (map + some)
+// TODO: 9. Display tags and metadata per bookmark
+
+// 📊 Sorting & Ordering
+// TODO: 10. Sort bookmarks (name, date, favorites) and reverse order (sort + reverse)
+
+// 📈 Analytics / Stats
+// TODO: 11. Show dashboard stats (total, favorites, category counts using reduce)
+
+// 🔁 Advanced Transformations
+// TODO: 12. Extract unique values (domains, categories, tags using Set + flatMap)
+// TODO: 13. Group bookmarks by category and favorite status (reduce)
+
+// ✅ Validation & Checks
+// TODO: 14. Prevent duplicates and validate data (some + every)
+
+// 🔄 Bulk Operations
+// TODO: 15. Implement multi-select and bulk actions (delete, favorite, clear all using map + filter)
+
+// 📄 Pagination
+// TODO: 16. Add pagination (slice + page navigation)
+
+// 🧠 Undo / Redo
+// TODO: 17. Implement undo/redo with history stack (push + pop)
+
+// 🔗 Import / Export
+// TODO: 18. Import/export bookmarks and merge datasets (concat / spread)
+
+// 🎯 UI Smart Features
+// TODO: 19. Add UI enhancements (highlight search, drag-drop reorder, top/recent sections)
+
+// 🧪 Power Features
+// TODO: 20. Implement utility helpers (find by id, clone state, replace/merge arrays immutably)
